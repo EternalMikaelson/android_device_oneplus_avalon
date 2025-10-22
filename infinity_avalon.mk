@@ -10,21 +10,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avalon device
 $(call inherit-product, device/oneplus/avalon/device.mk)
 
-# Inherit some common AxionAOSP stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-
-# Boot Animation
+# Infinity-X Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := true
+INFINITY_MAINTAINER := Klaus_Mikaelson
 
-# AxionAOSP Flags
+# Gapps
+WITH_GAPPS := true
 
-AXION_MAINTAINER := K_R_I_S_H_N_A
-AXION_PROCESSOR := Snapdragon_7_Plus_Gen_3
-AXION_CAMERA_REAR_INFO := 50,8
-AXION_CAMERA_FRONT_INFO := 16
-
-PRODUCT_NAME := lineage_avalon
+PRODUCT_NAME := infinity_avalon
 PRODUCT_DEVICE := avalon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

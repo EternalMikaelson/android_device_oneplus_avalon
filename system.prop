@@ -1,0 +1,10 @@
+# Infinity device properties for OnePlus Nord 4 (Avalon)
+
+# Custom Infinity identifiers
+ro.infinity.soc=Snapdragon® 7+ Gen 3
+ro.infinity.battery=5500 mAh
+ro.infinity.display=Fluid AMOLED, 120 Hz
+ro.infinity.camera=50MP + 8MP + 16MP
+
+# Market name
+ro.product.marketname=OnePlus Nord 4
