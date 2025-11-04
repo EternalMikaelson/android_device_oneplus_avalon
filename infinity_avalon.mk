@@ -18,8 +18,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 INFINITY_MAINTAINER := Klaus_Mikaelson
 
-# Gapps
-WITH_GAPPS := true
+# Default to vanilla unless explicitly set
+WITH_GAPPS ?= false
+
+ifeq ($(WITH_GAPPS), true)
+  TARGET_PIXEL_BOOT_ANIMATION := true
+  $(call inherit-product, vendor/google/gms/config.mk)
+endif
 
 PRODUCT_NAME := infinity_avalon
 PRODUCT_DEVICE := avalon
