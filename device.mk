@@ -28,9 +28,6 @@ TARGET_SCREEN_WIDTH := 1240
 # Bypass Charging
 BYPASS_CHARGE_SUPPORTED := true
 
-# Call the BCR setup
-$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
-
 # Camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
