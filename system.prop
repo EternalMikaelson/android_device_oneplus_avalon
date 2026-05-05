@@ -1,0 +1,8 @@
+# Custom identifiers
+ro.infinity.soc=Snapdragon® 7+ Gen 3
+ro.infinity.battery=5500 mAh
+ro.infinity.display=Fluid AMOLED, 120 Hz
+ro.infinity.camera=50MP + 8MP + 16MP(F)
+
+# Market name
+ro.product.marketname=OnePlus Nord 4

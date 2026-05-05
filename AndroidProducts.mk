@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_avalon.mk
+    $(LOCAL_DIR)/infinity_avalon.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_avalon-eng \
+    infinity_avalon-user \
+    infinity_avalon-userdebug
