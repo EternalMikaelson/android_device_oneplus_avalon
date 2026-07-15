@@ -34,3 +34,5 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 INFINITY_MAINTAINER := "Klaus_Mikaelson"
 TORCH_STR_SUPPORTED := true
+HBM_SUPPORTED := true
+HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
