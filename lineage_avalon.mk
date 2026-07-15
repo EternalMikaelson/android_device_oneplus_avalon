@@ -30,6 +30,8 @@ TARGET_DOZE_DOUBLE_TAP_PULSE_SUPPORTED := true
 TARGET_DOZE_PICKUP_PULSE_SUPPORTED := true
 PERF_GOV_SUPPORTED := true
 PERF_DEFAULT_GOV := walt
+HBM_SUPPORTED := true
+HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
 
 # Core tweaks
 ifeq ($(TARGET_GAPPS_VARIANT),core)
