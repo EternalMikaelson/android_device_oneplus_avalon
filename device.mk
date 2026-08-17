@@ -59,6 +59,8 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.oplus-richtap
 
+$(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USE_RICHTAP_EFFECT_REMAP,true)
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
